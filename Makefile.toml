@@ -1,0 +1,21 @@
+# This is a cargo-make <https://github.com/sagiegurari/cargo-make> file designed to manage the repository
+
+[env]
+GODOT = "godot3"
+GAME_PROJECT_FILE = "src/game/project.godot"
+GAME_DIR = "src/game"
+
+# FIXME-QA(Krey): Implement helpful error
+# FIXME-QA(Krey): Implement handling in case godot is not installed
+[tasks.launch-godot]
+description = "Opens the project in godot (game-engine)"
+category = "Development"
+script = '''
+#!/bin/sh
+# FIXME(Krey): Check if godot is executable
+
+# FIXME(Krey): Remove the cd dependency
+cd "${GAME_DIR}"
+[ -d "${GAME_DIR}/target" ] || cargo build
+${GODOT:-"godot"} "${GAME_PROJECT_FILE}" || exit 1
+'''

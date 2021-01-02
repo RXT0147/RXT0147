@@ -1,0 +1,171 @@
+Milestone tracking for the project defined in ALPHA, BETA, GAMA and GOLD release
+
+## ALPHA
+
+## [ ] Decided on the backend
+- [ ] Jumping red rectangle!
+	- [X] Grey background (renderer)
+	- [X] Red rectangle (Player placeholder)
+	- [ ] Player can be controlled using {A,D} key (basic controls)
+	- [ ] Player falls down (gravity implemented)
+	- [ ] Implement straight line (definition for floor)
+	- [ ] Player that doesn't fall below the floor (bare minimum physics implemented)
+	- [ ] Player can jump using W-key
+	- [ ] Player can collect yellow squares (placeholder for coins)
+	- [ ] yellow squares change number on the screen (currency implementation for in-game shop)
+	- [ ] Green rectangle that prints hello in console when player is near by and pressing F key (placeholder for in-game shop)
+	- [ ] Spawn blue rectangles that move by itself (placeholder for AI)
+
+### Building
+Builds using `cargo make build` **for** these platforms:
+- [ ] Linux
+	- [ ] Debian
+	- [ ] Fedora
+	- [ ] Gentoo
+	- [ ] Arch
+	- [ ] OpenSUSE
+- [ ] Darwin
+	- [ ] MacOS
+	- [ ] iOS
+	- [ ] iPadOS
+- [ ] FreeBSD
+- [ ] Redox
+- [ ] Windows
+- [ ] PostMarketOS
+- [ ] Android
+	- [ ] KitKat (API 19)
+	- [ ] Lollipop (API 21)
+	- [ ] Marshmallow (API 23)
+	- [ ] Nougat (API 24)
+	- [ ] Oreo (API 27)
+	- [ ] Pie (API 28)
+	- [ ] 10 (API 29)
+	- [ ] 11 (API 30)
+- [ ] Nintendo
+	- [ ] DS
+	- [ ] Wii
+	- [ ] WiiU
+	- [ ] Switch
+- [ ] PlayStation
+	- [ ] PlayStation 1(?)
+	- [ ] PlayStation 2(?)
+	- [ ] PlayStation 3
+	- [ ] PlayStation 2
+	- [ ] PlayStation 4
+	- [ ] PlayStation 5
+	- [ ] Portable
+	- [ ] Vita
+- [ ] Xbox
+	- [ ] Xbox360
+	- [ ] X_BOX_ONE_X
+	- [ ] Xbox Series X/S
+- [ ] KFC Console
+- [ ] McConsole
+
+Builds using `cargo make build ...` **on** these platforms:
+- [ ] Linux
+	- [ ] Debian
+	- [ ] Fedora
+	- [ ] Gentoo
+	- [ ] Arch
+	- [ ] OpenSUSE
+- [ ] Darwin
+	- [ ] MacOS
+	- [ ] iOS
+	- [ ] iPadOS
+- [ ] FreeBSD
+- [ ] Redox
+- [ ] Windows
+- [ ] PostMarketOS
+
+### Continuous Delivery optimization
+Continuous delivery allows the game to be painlessly installed on:
+- [ ] Runs on Linux
+	- [ ] Debian
+	- [ ] Fedora
+	- [ ] Gentoo
+	- [ ] Arch
+	- [ ] OpenSUSE
+- [ ] Darwin
+	- [ ] MacOS
+	- [ ] iOS
+	- [ ] iPadOS
+- [ ] FreeBSD
+- [ ] Redox
+- [ ] Windows
+- [ ] PostMarketOS
+- [ ] Android
+	- [ ] KitKat (API 19)
+	- [ ] Lollipop (API 21)
+	- [ ] Marshmallow (API 23)
+	- [ ] Nougat (API 24)
+	- [ ] Oreo (API 27)
+	- [ ] Pie (API 28)
+	- [ ] 10 (API 29)
+	- [ ] 11 (API 30)
+- [ ] Nintendo
+	- [ ] DS
+	- [ ] Wii
+	- [ ] WiiU
+	- [ ] Switch
+- [ ] PlayStation
+	- [ ] PlayStation 1(?)
+	- [ ] PlayStation 2(?)
+	- [ ] PlayStation 3
+	- [ ] PlayStation 2
+	- [ ] PlayStation 4
+	- [ ] PlayStation 5
+	- [ ] Portable
+	- [ ] Vita
+- [ ] Xbox
+	- [ ] Xbox360
+	- [ ] X_BOX_ONE_X
+	- [ ] Xbox Series X/S
+- [ ] KFC Console
+- [ ] McConsole
+
+### Running
+Game runs on:
+- [ ] Linux
+	- [ ] Debian
+	- [ ] Fedora
+	- [ ] Gentoo
+	- [ ] Arch
+	- [ ] OpenSUSE
+- [ ] Darwin
+	- [ ] MacOS
+	- [ ] iOS
+	- [ ] iPadOS
+- [ ] FreeBSD
+- [ ] Redox
+- [ ] Windows
+- [ ] PostMarketOS
+- [ ] Android
+	- [ ] KitKat (API 19)
+	- [ ] Lollipop (API 21)
+	- [ ] Marshmallow (API 23)
+	- [ ] Nougat (API 24)
+	- [ ] Oreo (API 27)
+	- [ ] Pie (API 28)
+	- [ ] 10 (API 29)
+	- [ ] 11 (API 30)
+- [ ] Nintendo
+	- [ ] DS
+	- [ ] Wii
+	- [ ] WiiU
+	- [ ] Switch
+- [ ] PlayStation
+	- [ ] PlayStation 1(?)
+	- [ ] PlayStation 2(?)
+	- [ ] PlayStation 3
+	- [ ] PlayStation 2
+	- [ ] PlayStation 4
+	- [ ] PlayStation 5
+	- [ ] Portable
+	- [ ] Vita
+- [ ] Xbox
+	- [ ] Xbox360
+	- [ ] X_BOX_ONE_X
+	- [ ] Xbox Series X/S
+- [ ] KFC Console
+- [ ] McConsole

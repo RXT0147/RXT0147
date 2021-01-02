@@ -1,0 +1,4 @@
+[submodule "unnamedGame"]
+	path = src/unnamedGame
+	url = git@github.com:RXT0147/unnamedGame.git
+	branch = master
