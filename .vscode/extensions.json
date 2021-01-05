@@ -18,6 +18,7 @@
         "gruntfuggly.todo-tree",
         "medo64.render-crlf",
         "vscodevim.vim",
-        "stephen-riley.regexworkbench"
+        "stephen-riley.regexworkbench",
+        "genuitecllc.codetogether"
     ]
 }

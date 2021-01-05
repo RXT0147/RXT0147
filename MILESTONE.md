@@ -14,7 +14,7 @@ Milestone tracking for the project defined in ALPHA, BETA, GAMA and GOLD release
 	- [ ] Player can collect yellow squares (placeholder for coins)
 	- [ ] yellow squares change number on the screen (currency implementation for in-game shop)
 	- [ ] Green rectangle that prints hello in console when player is near by and pressing F key (placeholder for in-game shop)
-	- [ ] Spawn blue rectangles that move by itself (placeholder for AI)
+	- [ ] Spawn blue rectangles that moves by itself (placeholder for AI)
 
 ### Building
 Builds using `cargo make build` **for** these platforms:

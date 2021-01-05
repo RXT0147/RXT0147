@@ -2,8 +2,8 @@
 
 [env]
 GODOT = "godot3"
-GAME_PROJECT_FILE = "src/game/project.godot"
-GAME_DIR = "src/game"
+GAME_PROJECT_FILE = "projects/unnamedGame/project.godot"
+GAME_DIR = "projects/unnamedGame"
 
 # FIXME-QA(Krey): Implement helpful error
 # FIXME-QA(Krey): Implement handling in case godot is not installed
@@ -12,6 +12,8 @@ description = "Opens the project in godot (game-engine)"
 category = "Development"
 script = '''
 #!/bin/sh
+set -e
+
 # FIXME(Krey): Check if godot is executable
 
 # FIXME(Krey): Remove the cd dependency
